@@ -44,7 +44,7 @@ class Song
  end
 
  def self.new_from_filename(song)
-
+   song_with_format = song.split(".")
  end
 
  def self.alphabetical
