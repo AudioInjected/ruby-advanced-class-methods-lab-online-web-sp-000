@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -50,6 +52,7 @@ class Song
    song_from_file = self.new
    song_from_file.name = new_song[1]
    song_from_file.artist_name = new_song[0]
+   binding.pry
  end
 
  def self.alphabetical
