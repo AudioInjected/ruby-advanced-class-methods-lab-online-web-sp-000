@@ -55,6 +55,10 @@ class Song
    song_from_file
  end
 
+def self.create_from_filename
+
+end
+
  def self.alphabetical
    @@all.sort_by {|song| song.name}
    #Song.alphabetical => "Object ID Brain Damage", "Object ID Dreamstate Emergency", "Object ID The light That Blinds"
