@@ -52,6 +52,7 @@ class Song
    song_from_file = self.new
    song_from_file.name = new_song[1]
    song_from_file.artist_name = new_song[0]
+   song_from_file
  end
 
  def self.alphabetical
